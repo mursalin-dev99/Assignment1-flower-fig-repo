@@ -317,4 +317,71 @@ img {
 
 /*============================================
         instagram css part ends here
+==============================================*/
+/*============================================
+         css part start here
+==============================================*/
+#latest_part {
+  width: 100%;
+}
+#latest_part .latest_body {
+  margin: 150px 300px 100px 300px;
+}
+#latest_part .latest_body .latest_main {
+  background-image: url(../images/Rectangle9.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#latest_part .latest_body .latest_main .latest_item {
+  text-align: center;
+  padding: 125px 0;
+}
+#latest_part .latest_body .latest_main .latest_item h3 {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+#latest_part .latest_body .latest_main .latest_item p {
+  color: rgba(39, 39, 39, 0.5607843137);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+}
+#latest_part .latest_body .latest_main .latest_form {
+  margin-top: 30px;
+}
+#latest_part .latest_body .latest_main .latest_form form {
+  display: inline;
+}
+#latest_part .latest_body .latest_main .latest_form form label input {
+  width: 500px;
+  height: 40px;
+  background: #fff;
+  border-radius: 8px;
+  color: rgba(39, 39, 39, 0.5607843137);
+  padding-left: 20px;
+  border: 1px solid #fff;
+}
+#latest_part .latest_body .latest_main .latest_form button {
+  color: #fff;
+  font-size: 18px;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  background: #E55473;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: 1px solid #E55473;
+  margin-left: 10px;
+}
+#latest_part .latest_body .latest_main .latest_form button:hover {
+  color: #E55473;
+  background: transparent;
+}
+
+/*============================================
+         css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
