@@ -1,13 +1,13 @@
 /*============================================
-        featured css part start here
+        instagram css part start here
 ==============================================*/
-#featured_part{
+#instagram_part{
     width: 100%;
-    .featured_body{
+    .instagram_body{
         margin: 150px 300px 100px 300px;
         text-align: center;
-        .featured_main{
-            .featured_text{
+        .instagram_main{
+            .instagram_text{
                 h3{
                     color: #272727;
                     font-size: 40px;
@@ -26,22 +26,20 @@
                 }
             }
         }
-        .featured_card{
+        .instagram_card{
             padding-left: 20px;
             display: flex;
             justify-content: space-between;
-            .featured_card_body{
-                width: 35%;
+            .instagram_card_body{
+                width: 25%;
                 padding-right: 20px;
                 margin-top: 50px;
                 .card_item{
                     .card_image{
-                        border-top-right-radius: 50%;
-                        border-top-left-radius: 50%;
-                        padding-top: 100px;
                         background: #a7216249;
                         img{
                             height: 350px;
+                            width: 100%;
                             vertical-align: middle;
                         }
                     }
@@ -67,5 +65,5 @@
     }
 }
 /*============================================
-        featured css part ends here
+        instagram css part ends here
 ==============================================*/

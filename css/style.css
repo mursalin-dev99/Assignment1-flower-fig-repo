@@ -101,7 +101,7 @@ img {
         banner css part ends here
 ==============================================*/
 /*============================================
-         css part start here
+        featured css part start here
 ==============================================*/
 #featured_part {
   width: 100%;
@@ -162,7 +162,7 @@ img {
 }
 
 /*============================================
-         css part ends here
+        featured css part ends here
 ==============================================*/
 /*============================================
         delivery css part start here
@@ -252,6 +252,69 @@ img {
   background: transparent;
   transition: 0.5s;
 }
+
 /*============================================
         deal css part ends here
+==============================================*/
+/*============================================
+        instagram css part start here
+==============================================*/
+#instagram_part {
+  width: 100%;
+}
+#instagram_part .instagram_body {
+  margin: 150px 300px 100px 300px;
+  text-align: center;
+}
+#instagram_part .instagram_body .instagram_main .instagram_text h3 {
+  color: #272727;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+#instagram_part .instagram_body .instagram_main .instagram_text p {
+  color: rgba(39, 39, 39, 0.5607843137);
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  width: 50%;
+  margin: 0 auto;
+}
+#instagram_part .instagram_body .instagram_card {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#instagram_part .instagram_body .instagram_card .instagram_card_body {
+  width: 25%;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+#instagram_part .instagram_body .instagram_card .instagram_card_body .card_item .card_image {
+  background: rgba(167, 33, 98, 0.2862745098);
+}
+#instagram_part .instagram_body .instagram_card .instagram_card_body .card_item .card_image img {
+  height: 350px;
+  width: 100%;
+  vertical-align: middle;
+}
+#instagram_part .instagram_body .instagram_card .instagram_card_body .card_item .card_bg2 {
+  background: rgba(5, 152, 160, 0.1921568627);
+}
+#instagram_part .instagram_body .instagram_card .instagram_card_body .card_item .card_bg3 {
+  background: rgba(71, 125, 17, 0.1764705882);
+}
+#instagram_part .instagram_body .instagram_card .instagram_card_body .card_item .card_text p {
+  padding-top: 10px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+}
+
+/*============================================
+        instagram css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
