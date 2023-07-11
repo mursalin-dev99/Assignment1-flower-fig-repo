@@ -165,6 +165,31 @@ img {
         featured css part ends here
 ==============================================*/
 /*============================================
+         css part start here
+==============================================*/
+#video_part {
+  width: 100%;
+}
+#video_part .video_body {
+  margin: 150px 300px 100px 300px;
+  text-align: center;
+}
+#video_part .video_body .video_main .video_text {
+  margin-bottom: 50px;
+}
+#video_part .video_body .video_main .video_text h3 {
+  color: #272727;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+
+/*============================================
+         css part ends here
+==============================================*/
+/*============================================
         delivery css part start here
 ==============================================*/
 #delivery_part {
@@ -196,6 +221,59 @@ img {
 
 /*============================================
         delivery css part ends here
+==============================================*/
+/*============================================
+        shop css part start here
+==============================================*/
+#shop_part {
+  width: 100%;
+}
+#shop_part .shop_body {
+  margin: 150px 300px 100px 300px;
+}
+#shop_part .shop_body .shop_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#shop_part .shop_body .shop_main .shop_text {
+  text-align: center;
+}
+#shop_part .shop_body .shop_main .shop_text h3 {
+  color: #272727;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+#shop_part .shop_body .shop_main .shop_text address {
+  color: rgba(39, 39, 39, 0.5607843137);
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding-top: 5px;
+}
+#shop_part .shop_body .shop_main .shop_text p {
+  color: rgba(39, 39, 39, 0.5607843137);
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding-top: 5px;
+}
+#shop_part .shop_body .shop_main .shop_text p span:hover {
+  color: #E55473;
+}
+#shop_part .shop_body .shop_main .shop_text p a {
+  text-decoration: none;
+  color: #000;
+}
+#shop_part .shop_body .shop_main .shop_text p a:hover {
+  color: #E55473;
+}
+
+/*============================================
+        shop css part ends here
 ==============================================*/
 /*============================================
         deal css part start here
@@ -427,4 +505,4 @@ img {
 
 /*============================================
         footer css part ends here
-==============================================*//*# sourceMappingURL=style.css.map */
+==============================================*/
