@@ -43,4 +43,60 @@ img {
 
 /*============================================
         all typography css part ends here
+==============================================*/
+/*============================================
+        banner css part start here
+==============================================*/
+#banner_part {
+  width: 100%;
+  background: rgba(229, 84, 115, 0.2392156863);
+}
+#banner_part .banner_body {
+  margin: 0 250px;
+}
+#banner_part .banner_body .banner_main {
+  display: flex;
+  align-items: center;
+}
+#banner_part .banner_body .banner_main .ban_text h1 {
+  color: #000;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+}
+#banner_part .banner_body .banner_main .ban_text p {
+  color: rgba(39, 39, 39, 0.6431372549);
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
+}
+#banner_part .banner_body .banner_main .ban_text .ban_btn {
+  margin-top: 20px;
+}
+#banner_part .banner_body .banner_main .ban_text .ban_btn a {
+  color: #fff;
+  background: #E55473;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  border: 1px solid #E55473;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+#banner_part .banner_body .banner_main .ban_text .ban_btn a:hover {
+  background: transparent;
+  color: #E55473;
+  transition: 0.5s;
+}
+#banner_part .banner_body .banner_main .ban_image {
+  text-align: right;
+  padding-left: 100px;
+}
+#banner_part .banner_body .banner_main .ban_image img {
+  height: 600px;
+}
+
+/*============================================
+        banner css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
