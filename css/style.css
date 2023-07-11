@@ -52,7 +52,7 @@ img {
   background: rgba(229, 84, 115, 0.2392156863);
 }
 #banner_part .banner_body {
-  margin: 0 250px;
+  margin: 0 300px;
 }
 #banner_part .banner_body .banner_main {
   display: flex;
@@ -99,4 +99,68 @@ img {
 
 /*============================================
         banner css part ends here
+==============================================*/
+/*============================================
+         css part start here
+==============================================*/
+#featured_part {
+  width: 100%;
+}
+#featured_part .featured_body {
+  margin: 150px 300px 100px 300px;
+  text-align: center;
+}
+#featured_part .featured_body .featured_main .featured_text h3 {
+  color: #272727;
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding-bottom: 15px;
+}
+#featured_part .featured_body .featured_main .featured_text p {
+  color: rgba(39, 39, 39, 0.5607843137);
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  width: 50%;
+  margin: 0 auto;
+}
+#featured_part .featured_body .featured_card {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#featured_part .featured_body .featured_card .featured_card_body {
+  width: 35%;
+  padding-right: 20px;
+  margin-top: 50px;
+}
+#featured_part .featured_body .featured_card .featured_card_body .card_item .card_image {
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  padding-top: 100px;
+  background: rgba(167, 33, 98, 0.2862745098);
+}
+#featured_part .featured_body .featured_card .featured_card_body .card_item .card_image img {
+  height: 350px;
+  vertical-align: middle;
+}
+#featured_part .featured_body .featured_card .featured_card_body .card_item .card_bg2 {
+  background: rgba(5, 152, 160, 0.1921568627);
+}
+#featured_part .featured_body .featured_card .featured_card_body .card_item .card_bg3 {
+  background: rgba(71, 125, 17, 0.1764705882);
+}
+#featured_part .featured_body .featured_card .featured_card_body .card_item .card_text p {
+  padding-top: 10px;
+  color: #272727;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+}
+
+/*============================================
+         css part ends here
 ==============================================*//*# sourceMappingURL=style.css.map */
